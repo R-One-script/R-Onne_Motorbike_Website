@@ -209,6 +209,8 @@ h3 {
     box-shadow: 4px 4px 0 1px gold;
 }
 
+/* Motorcycles */
+
 .firstBike{
     margin-top: 40px;
     display: flex;
@@ -278,6 +280,42 @@ h3 {
     border-radius: 2%;
 }
 
+/* TRIPS */
+
+.summary{
+    background: rgb(170, 170, 170);
+    
+}
+
+.summary .content{
+    text-align: left;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.summary .content ul li{
+    text-transform: uppercase;
+    text-decoration: underline dotted;
+    text-underline-position: under;
+    padding: 5px;
+    list-style: circle;
+}
+
+.summary .content ul li a { 
+    color: brown;
+
+}
+
+.summary .content ul li :hover { 
+    color: rgb(192, 93, 0);
+    opacity: 70%;
+}
+
+#titleSummary{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
 .colEspi{
     margin-top: 40px;
     display: flex;
@@ -318,6 +356,97 @@ h3 {
 }
 
 .colEspi .content .card .rightBox img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 2%;
+}
+
+.laCiotat{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.laCiotat .content .card .leftBox h4{
+    text-decoration: underline;
+}
+
+.laCiotat .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.laCiotat .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.laCiotat .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.laCiotat .content .card .leftBox img {
+    height: 300px;
+    width: 500px;
+    border-radius: 2%;
+}
+
+.laCiotat .content .card .rightBox img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 2%;
+}
+
+.castellet{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.castellet .content .card .leftBox h4{
+    text-decoration: underline;
+}
+
+.castellet .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.castellet .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.castellet .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.castellet .content .card .leftBox img {
+    height: 300px;
+    width: 500px;
+}
+
+.castellet .content .card .rightBox img{
     height: 400px;
     width: 550px;
     margin-top: 5px;
@@ -369,10 +498,194 @@ h3 {
     border-radius: 2%;
 }
 
+.fort_six_fours{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fort_six_fours .content .card .leftBox h4{
+    text-decoration: underline;
+}
+
+.fort_six_fours .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.fort_six_fours .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.fort_six_fours .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.fort_six_fours .content .card .leftBox img {
+    height: 300px;
+    width: 500px;
+}
+
+.fort_six_fours .content .card .rightBox img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 2%;
+}
 
 #link {
     text-decoration: underline;
     text-transform: capitalize;
+}
+
+/* Projects */
+ 
+.yamaha{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.r6 .content .card .leftBox h4{
+    text-decoration: underline;
+}
+
+.r6 .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.r6 .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.r6 .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.r6 .content .card .leftBox img {
+    height: 300px;
+    width: 500px;
+    border-radius: 2%;
+}
+
+.r6 .content .card .rightBox img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 2%;
+}
+
+.ducati{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ducati .content .card .leftBox h4{
+    text-decoration: underline;
+}
+
+.ducati .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.ducati .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.ducati .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.ducati .content .card .leftBox img {
+    height: 300px;
+    width: 500px;
+    border-radius: 2%;
+}
+
+.ducati .content .card .rightBox img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 2%;
+}
+
+.montVentoux{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.montVentoux .content .card .leftBox h4{
+    text-decoration: underline;
+}
+
+.montVentoux .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.montVentoux .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.montVentoux .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.montVentoux .content .card .leftBox img {
+    height: 300px;
+    width: 500px;
+    border-radius: 2%;
+}
+
+.montVentoux .content .card .rightBox img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 2%;
 }
 
 

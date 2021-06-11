@@ -67,26 +67,26 @@ nav li :hover{
 
 #lobbyPicture {
     padding-top: 60px;
-    background: url(Pictures/main_picture.png) no-repeat fixed 50% 50%;
+    background: url(pictures/main_picture.png) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 599px;
 }
 
 #motorcyclesPicture {
     padding-top: 60px;
-    background: url(Pictures/motorcycles_picture.jpg) no-repeat fixed 50% 50%;
+    background: url(pictures/motorcycles_picture.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 599px;
 }
 #tripsPicture {
     padding-top: 60px;
-    background: url(Pictures/tripsPicture.jfif) no-repeat fixed 50% 50%;
+    background: url(pictures/tripsPicture.jfif) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 599px;
 }
 #projectsPicture {
     padding-top: 60px;
-    background: url(Pictures/projects_picture.jpg) no-repeat fixed 50% 50%;
+    background: url(pictures/projects_picture.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 599px;
 }
@@ -163,17 +163,17 @@ h3 {
 }
 
 #youtubeChannel {
-    background : url(Pictures/youtube_R-Onne.png) no-repeat;
+    background : url(pictures/youtube_R-Onne.png) no-repeat;
     background-size: contain;
     border-radius: 10px;
 }
 #instagram {
-    background : url(Pictures/instagram_moto.png.jpg) no-repeat;
+    background : url(pictures/instagram_moto.png.jpg) no-repeat;
     background-size: contain;
 
 }
 #twitter {
-    background : url(Pictures/twitter_moto_v2.png);
+    background : url(pictures/twitter_moto_v2.png);
     background-size: contain;
 
 } 

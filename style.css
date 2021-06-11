@@ -7,6 +7,7 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
+    background-color: grey;
 }
 
 ul{
@@ -207,6 +208,173 @@ h3 {
     padding-top: 15px;
     box-shadow: 4px 4px 0 1px gold;
 }
+
+.firstBike{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstBike .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.firstBike .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.firstBike .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.firstBike .content .card .rightBox img{
+    height: 400px;
+    width: 600px;
+    margin-top: 5px;
+    border-radius: 2%;
+}
+
+.secondBike{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondBike .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.secondBike .content .card .leftBox {
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    height: 300px;
+    width: 400px;
+    
+
+}
+
+.secondBike .content .card .rightBox img{
+    height: 400px;
+    width: 530px;
+    margin-top: 5px;
+    border-radius: 2%;
+}
+
+.colEspi{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colEspi .content .card .leftBox h4{
+    text-decoration: underline;
+}
+
+.colEspi .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.colEspi .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.colEspi .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.colEspi .content .card .leftBox img {
+    height: 300px;
+    width: 500px;
+    border-radius: 2%;
+}
+
+.colEspi .content .card .rightBox img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 2%;
+}
+
+.montCaume{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.montCaume .content .card .leftBox h4{
+    text-decoration: underline;
+}
+
+.montCaume .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.montCaume .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.montCaume .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.montCaume .content .card .leftBox img {
+    height: 300px;
+    width: 500px;
+}
+
+.montCaume .content .card .rightBox img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 2%;
+}
+
+
+#link {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
 
 /* footer */
 

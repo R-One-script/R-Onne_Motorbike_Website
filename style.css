@@ -93,7 +93,7 @@ nav li :hover{
 
 h1 {
     font-family: Nunito, cursive;
-    color: orange;
+    color: rgb(190, 124, 2);
     font-size: 6em;
     margin-top: 80px;
     text-shadow: 2px 3px 2px gold;
@@ -108,7 +108,7 @@ h1 {
 }
 
 h3 {
-    color: orange;
+    color: rgb(190, 124, 2);
     font-size: 3em;
     text-shadow: 1px 3px 2px gold;
 }
@@ -300,7 +300,7 @@ h3 {
 .summary .content{
     text-align: left;
     padding: 20px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .summary .content ul li{
@@ -326,6 +326,8 @@ h3 {
 #titleSummary{
     text-decoration: underline;
     text-transform: capitalize;
+    font-size: 3em;
+    color: black;
 }
 
 .colEspi{

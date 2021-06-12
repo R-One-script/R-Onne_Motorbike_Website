@@ -229,14 +229,16 @@ h3 {
 .firstBike .content .card .leftBox {
     flex: 0 0 30%;
     padding: 20px;
+    padding-top: 5%;
     background-color: brown;
     color: white;
     border-radius: 2%;
-    
+    line-height: 30px;
 
 }
 .firstBike .content .card.rightBox {
     flex: 0 0 70%;
+    
     
 }
 
@@ -245,6 +247,7 @@ h3 {
     width: 600px;
     margin-top: 5px;
     border-radius: 2%;
+    box-shadow: 5px 5px 3px 1px black;
 }
 
 .secondBike{
@@ -263,7 +266,8 @@ h3 {
 
 
 .secondBike .content .card .leftBox {
-    padding: 20px;
+    flex: 0 0 30%;
+    padding: 50px;
     background-color: brown;
     color: white;
     border-radius: 2%;
@@ -272,13 +276,19 @@ h3 {
     
 
 }
+.secondBike .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
 
 .secondBike .content .card .rightBox img{
     height: 400px;
     width: 530px;
     margin-top: 5px;
     border-radius: 2%;
+    box-shadow: 5px 5px 3px 1px black;
 }
+
 
 /* TRIPS */
 
@@ -295,19 +305,21 @@ h3 {
 
 .summary .content ul li{
     text-transform: uppercase;
-    text-decoration: underline dotted;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
     text-underline-position: under;
     padding: 5px;
     list-style: circle;
 }
 
 .summary .content ul li a { 
-    color: yellow;
+    color: orange;
 
 }
 
 .summary .content ul li :hover { 
-    color: rgb(192, 93, 0);
+    color: brown;
     opacity: 70%;
 }
 
@@ -360,6 +372,7 @@ h3 {
     width: 550px;
     margin-top: 5px;
     border-radius: 2%;
+    box-shadow: 5px 5px 3px 1px black;
 }
 
 .laCiotat{
@@ -406,6 +419,7 @@ h3 {
     width: 550px;
     margin-top: 5px;
     border-radius: 2%;
+    box-shadow: -5px 5px 3px 1px black;
 }
 
 .sainteVictoire{
@@ -452,6 +466,7 @@ h3 {
     width: 550px;
     margin-top: 5px;
     border-radius: 2%;
+    box-shadow: 5px 5px 3px 1px black;
 }
 
 .castellet{
@@ -497,6 +512,7 @@ h3 {
     width: 550px;
     margin-top: 5px;
     border-radius: 2%;
+    box-shadow: 5px 5px 3px 1px black;
 }
 
 .montCaume{
@@ -542,6 +558,7 @@ h3 {
     width: 550px;
     margin-top: 5px;
     border-radius: 2%;
+    box-shadow: 5px 5px 3px 1px black;
 }
 
 .fort_six_fours{
@@ -587,7 +604,55 @@ h3 {
     width: 550px;
     margin-top: 5px;
     border-radius: 2%;
+    box-shadow: -5px 5px 3px 1px black;
 }
+
+.verdon{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.verdon .content .card .leftBox h4{
+    text-decoration: underline;
+}
+
+.verdon .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.verdon .content .card .leftBox {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 2%;
+    
+
+}
+.verdon .content .card.rightBox {
+    flex: 0 0 70%;
+    
+}
+
+.verdon .content .card .leftBox img {
+    height: 300px;
+    width: 500px;
+}
+
+.verdon .content .card .rightBox img{
+    height: 400px;
+    width: 550px;
+    margin-top: 5px;
+    border-radius: 2%;
+    box-shadow: 5px 5px 3px 1px black;
+}
+
 
 #link {
     text-decoration: underline;
@@ -631,14 +696,24 @@ h3 {
 
 .r6 .content .card .leftBox img {
     height: 300px;
-    width: 500px;
+    width: 450px;
     border-radius: 2%;
 }
 
-.r6 .content .card .rightBox img{
+.r6 .content .card .rightBox {
     height: 400px;
     width: 550px;
     margin-top: 5px;
+    border-radius: 2%;
+    background: blue;
+    box-shadow: 5px 5px 3px 1px black;
+
+}
+
+.r6 .content .card .rightBox img{
+    height: 300px;
+    width: 550px;
+    margin-top: 10%;
     border-radius: 2%;
 }
 
@@ -681,10 +756,20 @@ h3 {
     border-radius: 2%;
 }
 
-.ducati .content .card .rightBox img{
+.ducati .content .card .rightBox {
     height: 400px;
     width: 550px;
     margin-top: 5px;
+    border-radius: 2%;
+    background: red;
+    box-shadow: 5px 5px 3px 1px black;
+
+}
+
+.ducati .content .card .rightBox img{
+    height: 330px;
+    width: 550px;
+    margin-top: 7%;
     border-radius: 2%;
 }
 

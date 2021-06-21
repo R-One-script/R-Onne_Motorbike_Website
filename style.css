@@ -819,6 +819,7 @@ h3 {
     width: 550px;
     margin-top: 5px;
     border-radius: 2%;
+    box-shadow: 5px 5px 3px 1px black;
 }
 
 
